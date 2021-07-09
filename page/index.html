@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+         <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>my project website </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../asset/css/Style.css">
+        <link rel="stylesheet" href="../asset/css/navTrigger.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../asset/themify_icon/themify-icons/themify-icons.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- wow --> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script> new WOW().init();
+        </script>
+        <!--animation-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>    
+    </head>
+    <body>
+        <header>
+        <!--navbar-->
+        <div style="container-fluid">
+            <div id="scroll">
+                <div class="navbar" >
+                    <a href=""><span><img  class="logo"src="../asset/images/logofintech.png" alt="SpaceFinTech"></span> </a>
+                    <div class="navbar__right">
+                        <ul>
+                            <li><a  href="#home">Home</a></li>
+                            <li><a  href="#About">About</a></li>
+                            <li><a  href="#Academy">Academy</a></li>
+                            <li class="dropdownOfNavbar">
+                                <a>Technology</a><i class="fa fa-caret-down fa--modifier"></i>
+                                <ul class="dropdownOfNavbar__items">
+                                    <li><a href="#" >Artificial Intelligence (AI) and Machine Learning</a></li>
+                                    <li><a href="#" >Cyber Security</a></li>
+                                    <li><a href="#" >Internet of Things (IoT)</a></li>
+                                    <li><a href="#" >Quantum Computing</a></li>
+                                    <li><a href="#" >DevOps</a></li>
+                                    <li><a href="#" >Blockchain</a></li>
+                                    <li><a href="#" >Health Tech</a></li>
+                                    <li><a href="#" >Cloud Computing</a></li>
+                                    <li><a href="#" >Big Data</a></li>
+                                    <li><a href="#" >Virtual Reality and Augmented Reality</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdownOfNavbar">
+                                <a>Programming</a><i class="fa fa-caret-down fa--modifier"></i>
+                                <ul class="dropdownOfNavbar__items">
+                                    <li><a href="#" >React.js Development</a></li>
+                                    <li><a href="#" >Node.js Development</a></li>
+                                    <li><a href="#" >JavaScript Developers</a></li>
+                                    <li><a href="#" >Swift Development</a></li>
+                                    <li><a href="#" >Angular Development</a></li>
+                                    <li><a href="#" >Python Development</a></li>
+                                    <li><a href="#" >C and C++</a></li>
+                                    <li><a href="#" >Ruby</a></li>
+                                    <li><a href="#" >GO</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdownOfNavbar">
+                                <a>Services</a><i class="fa fa-caret-down fa--modifier"></i>
+                                <ul class="dropdownOfNavbar__items">
+                                    <li><a href="#" >Mobile App Development</a></li>
+                                    <li><a href="#" >Custom Product Development</a></li>
+                                    <li><a href="#" >Blockchain Development</a></li>
+                                    <li><li><a href="#" >Security Compliance</a></li>
+                                    <li><a href="#" >Search Engine Optimization</a></li>
+                                    <li><a href="#" >IOS Development</a></li>
+                                    <li><a href="#" >Software Design</a></li>
+                                    <li><a href="#" >Smart Contact & dApps</a></li>
+                                    <li><a href="#" >PCI Audits</a></li>
+                                    <li><a href="#" >On Page SEO</a></li>
+                                    <li><a href="#" >PCI Audits</a></li>
+                                    <li><a href="#" >Android Development</a></li>
+                                    <li><a href="#" >Custome Software Development</a></li>
+                                    <li><a href="#" >Enterprise Blockchain</a></li>
+                                    <li><a href="#" >Vulnerability Scanning</a></li>
+                                    <li><a href="#" >Off Page SEO</a></li>
+                                    <li><a href="#" >Cross-platform Development</a></li>
+                                    <li><a href="#" >E-Commerce Web Development</a></li>
+                                    <li><a href="#" >Crypto Wallets</a></li>
+                                    <li><a href="#" >Technical SEO</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li><a  href="#Careers">Careers</a></li>
+                            <li><a  href="#Blog">Blog</a></li>
+                            <li id="ti-facebook"><a  href="#facebook"  class="ti-facebook"></a></li>
+                            <li id="ti-twitter"><a  href="#twitter"  class="ti-twitter"></a></li>
+                        </ul>
+                        <select name="translate" class="translate" id="translate">
+                            <option>VN</option>
+                            <option>EN</option>
+                        </select>
+                        <div class="navTrigger navTrigger--modifier">
+                            <i></i><i></i><i></i>
+                        </div>
+                    </div>      
+                </div>
+            
+            </div>
+            
+        </div> 
+        </header>
+        
+        <main>
+        <!--slide -->
+        <div class="slide col-md-12">
+            <div class="slide__run" style=" background-image: url('../asset/images/l1-min.jpg')">
+                <div class="slide__run__1">
+                    <h3>Financial software development services</h3>
+                    <h1 style="margin:40px 0px;">BUSINESS AGENCY</h1>
+                    <h3>Digital Solutions for Financial Services Industry</h3>
+                    <h3>Digital transformation in financial services: technology and solutions mindset</h3>
+                    <div  style="margin-top:40px">
+                        <a class="btn-learnMore" href="">Learn more</a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="slide__run" style=" background-image: url('../asset/images/l2-min.jpg')" >
+                <div class="slide__run__2">
+                    <h3>How To Position Your Firm For Success</h3>
+                    <h1>BUSINESS AGENCY</h1>
+                    <div class="text-slide">
+                        <p>As gaps between leaders and laggards grow, FS and TMT businesses need to move quickly if they're going to capitalise on fintech's potential and avoid being marginaliseds</p>
+                    </div>
+                    <div >
+                        <a class="btn-learnMore" href="">Learn more</a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="slide__run" style=" background-image: url('../asset/images/l3-min.jpg')">
+                <div class="slide__run__3">
+                    <h3>Seizing marketplace opportunities</h3>
+                    <h1>BUSINESS AGENCY</h1>
+                    <h3>Firms that already have embedded fintech and are beginning to fuse TMT and FS strengths are set to seize most of the opportunities in the marketplace for differentiation and growth.</h3>
+                    
+                    <div >
+                        <a class="btn-learnMore" href="">Learn more</a>
+                    </div>
+                </div>   
+            </div>              
+        </div>
+
+        <!--end slide-->
+        <div style="height: 1220px;">
+            <div class="container content1">
+                <h3>Let’s make something amazing together Start by <br>  "Technology trends that will shape the future"</h3>
+                <h3>WHAT WE THINK</h3>
+                <p>We are amidst the 4th Industrial Revolution, and technology is evolving faster than ever. Companies and individuals that don't keep up with some of the major tech trends run the risk of being left behind. Understanding the key trends will allow people and businesses to prepare and grasp the opportunities. As a business and technology futurist, it is my job to look ahead and identify the most important trends. In this article,</p>
+                <p style="text-align:center"><img src="../asset/images/whatwe.jpg"></img></p>
+                <p>Technology today is evolving at such a rapid pace, enabling faster change and progress, causing an acceleration of the rate of change, until eventually, it will become exponential. However, it is not only technology trends and top technologies that are evolving, a lot more has changed this year due to the outbreak of COVID-19 making IT professionals realize that their role will not stay the same in the contactless world tomorrow. And an IT professional in 2020-21 will constantly be learning, unlearning, and relearning (out of necessity if not desire).</p>
+                <p>It might seem strange to be making predictions about 2021, when it’s far from certain how the remainder of 2020 is going to play out. No-one foresaw the world-changing events of this year, but one thing is clear: tech has been affected just as much as every other part of our lives.</p>
+                <p>Another thing that is clear is that today’s most important tech trends will play a big part in helping us cope with and adapt to the many challenges facing us. From the shift to working from home to new rules about how we meet and interact in public spaces, tech trends will be the driving force in managing the change.</p>
+                <p>As we get into the new decade, amazing technologies are being developed and are actively incorporated into our daily lives.</p>
+                <p>Amid the COVID pandemic and social distancing restrictions, many businesses have experienced a shift to online operations and services. In these conditions, the importance of having their own mobile application has increased for many brands, as it opens more opportunities to provide a better customer experience in the online mode. Consequently, the popularity of mobile app development services has risen too.</p>
+                <p>To create a well-performing and intuitive business application that delivers on its purpose, companies may need to find a reliable technology partner that will help them implement it. Recently, Space Fintech Oriented to become the best Mobile Application development company for startups worldwide.</p>
+            </div>
+        </div>
+        <!--content2-->
+        <div style="background-color:#F9F9F9;padding:50px 0px;" >
+            <div class="container" >
+                <div class="row content2">
+                    <div class="content2__left wow animate__animated animate__fadeInLeft">
+                        <div>
+                            <h3>Industry Solutions</h3>
+                        </div>
+                        <span><hr></span>
+                        <div>
+                            <p>Bring your ideas for mobile applications, web services or more complex solutions to life with us. Work with a team of the best developers equipped with the best tools and technologies. Be it JavaScript, PHP, Python, Java, Kotlin, Objective-C, or Swift we have the skills that you need.</p>
+                        </div>
+                        <div>
+                            <p>Find out how SpaceFintech’s products and solutions are helping enterprises benefit from blockchain technology across these major industries.</p>
+                        </div>
+                    
+                    </div>
+                    <div class="col-md-12 col-lg-7 content2__right wow animate__animated animate__fadeInRight">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div>
+                                    <div><img src="../asset/images/icon-03.png" ></div>
+                                    <div style="margin-top: 1.5rem!important;">
+                                        <h3>App Insights</h3>
+                                    </div>
+                                    <div style="margin: auto;width: 75%;">
+                                        <p>A comprehensive destination for in-depth evaluation of mobile applications.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <div><img src="../asset/images/icon-01.png" ></div>
+                                    <div style="margin-top: 1.5rem!important;">
+                                        <h3>Reports</h3>
+                                    </div>
+                                    <div style="margin: auto;width: 93%;">
+                                        <p>A platform where you can find the foremost tech solution providers for your app business.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <div><img src="../asset/images/icon-02.png" ></div>
+                                    <div style="margin-top: 2.2rem!important;">
+                                        <h3>Inspiration</h3>
+                                    </div>
+                                    <div style="margin: auto;width: 85%;"> 
+                                        <p>A digital daily which serves as an extensive guide and a 'how-to' handbook for all technologists, app agencies, analysts and blockchain experts.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--content3-->
+        <div class="container">
+            <div class="row content3">
+                <div class="content3__left">
+                    <div class="wow animate__animated animate__fadeInLeft"><img src="../asset/images/business.jpg" alt=""></div>
+                </div>
+                <div class="content3__right">
+                    <div class="wow animate__animated animate__fadeInUp">
+                        <h3>We are <span style="color:#66C900">making business </span> better for everyone</h3>
+                    </div>
+                    <div class="wow animate__animated animate__fadeInUp">
+                        <p>Fintech or Financial technology translates the potential of data to be monetized. We provide comprehensive consulting services, financial services software engineering together with the key technology acceleration solutions to gear up for fintech software development consumer-oriented services in different industry sectors.</p>
+                    </div>
+                    <div class="wow animate__animated animate__fadeInUp">
+                        <p>From ideation to POC, to deployment, to all-inclusive support, our professionals harness innovation and deliver an end-to-end experience that includes strategy, architecture, customer experience, service management - all within a new fintech ecosystem. Actualize innovations with the right tech partner.</p>
+                    </div>
+                    <div >
+                        <a class="btn-learnMore" href="">Learn more</a>
+                    </div>
+
+                </div>
+            </div> 
+        </div>
+        <!--content4-->
+        <div style="background-color:#F9F9F9;margin:50px 0px;">
+            <div class="container content4">
+                <div>
+                    <h1>The Digitalization Wave</h1>
+                </div>
+                <div><img src="../asset/images/The Digitalization Wave.png" alt=""></div>
+                <div>
+                    <p>2020 Recap: The pandemic has reiterated the need for every business to become a digital business. With most business operations being carried out remotely in the interests of social distancing, the need for organizations to have policies, practices, and technology for this to become feasible intensified. As part of this, businesses had to adopt agile practices, reskill, and retool to keep up with the wave of digitalization that had begun before the pandemic and had accelerated during the months of lockdown. After all, in the era of digitalization, what is more important than the size of an organization is how quickly it responds and adapts to constantly changing conditions.</p>
+                </div>
+                <div>
+                    <p>2021 Outlook: One important aspect of digitalization is reviving or revitalizing the core of technology operations in the organization. This includes breathing new life into legacy systems with a new generation of powerful, easy to use, low-code platforms. This means that in 2021, organizations will have to think about reducing technical debt by refactoring or re-architecting critical applications. One important way of reducing legacy system debt is to consider migrating critical IT assets, in addition to data and workloads, to the cloud. Whether the organization decides to use a lift-and-shift approach or re-architect from scratch, moving legacy assets to the cloud will allow you to leverage the benefits of scalability, agility, and cost-effectiveness of a cloud-first model, whether the organization decides to select a single cloud, multi-cloud, or hybrid cloud strategy.</p>
+                </div>
+                <div>
+                    <p>Upgrading entire legacy systems, for example ERP systems, can seem complicated, time-consuming, and expensive due to various factors such as outdated governance requirements, spaghetti code, and dated workarounds and fixes. In such a case, migrating to the cloud or undertaking other modernization initiatives will have a significant time and money cost. To circumvent this, technology can enable this to be streamlined, for example by using sophisticated algorithms to understand which area of an ERP system will have the most significant impact on the bottom line. Using tools, you can even recode critical applications (leaving your existing ERP system intact) or replatform them in ways that minimize technical debt. The crux of the matter is that applications and legacy systems should be modernized so that they add value to your business instead of being a liability to it. With tightening budgets in the midst of a slowed economy, the pressure will be on for organizations to make the most use of their existing assets. Because of this, the digitalization wave is set to gain momentum in 2021.</p>
+                </div>
+            </div>
+            
+
+        </div>
+        <!--content5-->
+        <div style="margin:50px 0px;padding:50px 0px;">
+            <div class="container content5">
+                <div>
+                    <h1>The Digitalization Wave</h1>
+                </div>
+                <div><img src="../asset/images/Engineering Strategy.png" alt=""></div>
+                <div>
+                    <p>2020 Recap: The role of technology in business strategy has never been more critical. With technology disrupting all areas of business, 2020 proved that it is more critical than ever to have technology inform business decisions. If formulated and executed correctly, this enables companies to have a more agile and nimble approach to corporate strategy. As technology advances at a pace more rapid than ever before, 2020 showed that these changes will need to be brought about quickly. For example, tech strategy can be constrained by corporate strategy. In such a scenario, because corporate strategy is considered to be of greater importance, technological development or adoption can fall by the wayside. To avoid this, it’s necessary for corporate and technology strategy to go hand in hand, and for corporate technology leaders to feel empowered to make such decisions.</p>
+                </div>
+                <div>
+                    <p>2021 Outlook: In a Deloitte survey, 40% of CEOs believed that the CIO would be the driver of business strategy. This is clear evidence that as strategy and technology become inextricably intertwined, technology must inform strategic intentions and vice versa. To do this, many decision makers are investing in tech-enabled strategy. This means that not only are the corporate strategies themselves becoming informed by technology, but the process of developing, executing, and monitoring strategies is also becoming more technologically-enabled. This means leveraging tech-enabled strategy platforms and tools that allow decision makers to think about a wider range of variables. These include futuristic trend-sensing technologies that scan the environment to collect and analyze factors that have an impact on overall strategy. This includes changes in the external environment, such as transforming social, legal, and political regulations. Changes in the industry, customer expectations, and stakeholder thought process will also be considered. Other types of technology helps leaders to simulate and test the results of choosing a particular strategic path to manage critical uncertainties. This helps to create alternate scenarios to identify and mitigate risks and threats. Finally, monitoring and analytics tools track outcomes to inform current and future strategic discussions about the organization's performance against the defined strategy. With these tools, stakeholders can assess the strategy’s impact, what is working well, and what needs to be changed. In 2021, all this will be done while pursuing alliances and ecosystem partnerships with leading organizations. As the world becomes more collaborative and hyperconnected, these alliances will go a long way in maintaining a unique competitive advantage.</p>
+                </div>
+            </div>
+        </div>
+        <!--content6-->
+        <div style="background-color:#F9F9F9;margin:50px 0px;padding:50px 0px;">
+            <div class="container content6">
+                <div>
+                    <h1>Technology</h1>
+                </div>
+                <div class="content__sup">  
+                    <div>
+                        <p>Technology today is evolving at such a rapid pace, enabling faster change and progress, causing an acceleration of the rate of change, until eventually, it will become exponential. However, it is not only technology trends and top technologies that are evolving, a lot more has changed this year due to the outbreak of COVID-19 making IT professionals realize that their role will not stay the same in the contactless world tomorrow. And an IT professional in 2020-21 will constantly be learning, unlearning, and relearning (out of necessity if not desire).</p>
+                    </div>
+                    <div><img src="../asset/images/sunn.png" alt=""></div>
+                </div>
+                
+                <div>
+                    <p>What does this mean for you? It means staying current with new technology trends. And it means keeping your eyes on the future to know which skills you’ll need to know to secure a safe job tomorrow and even learn how to get there. All bows to the worldwide pandemic, most of the global IT population is sitting back, working from home.</p>
+                </div>
+                <div>
+                    <p>How will the latest technologies transform your business? Future Tech Trends in Practice will give you the knowledge of today’s most important technology trends, and how to take full advantage of them to grow your business.</p>
+                </div>
+                <div>
+                    <p>The technology trends along with their potential contributions to organisational success. Your business’ll learn how to integrate existing advancements and plan for those that are on the way.</p>
+                </div>
+                <div>
+                    <p>The technology trends along with their potential contributions to organisational success. Your business’ll learn how to integrate existing advancements and plan for those that are on the way.</p>
+                </div>
+            </div>
+            
+
+        </div>
+        <!--content7-->
+        <div class="container">
+            <div class="row">
+                <div class="content7">
+                    <div><h1>Programming Languages</h1></div>   
+                    <div>
+                        <div class="content7__left">
+                            <div>
+                                <p>Once, only a few people were considered computer programmers with cutting-edge coding skills. Now, many IT jobs require a solid grasp of the top programming languages — yes, more than one.</p>
+                            </div>
+                            <div>
+                                <p>If you’re trying to advance in your career or change careers completely and need to master a programming language, you might wonder which one to learn. After all, it will take time and money to learn the language, so you want to make the right choice.</p>
+                            </div>
+                            <div>
+                                <p>Several considerations come into play when making your decision, like the difficulty level you’re willing to learn, the knowledge you already possess that align with your existing coding skills, or your reasons for learning a top programming language.</p>
+                            </div>
+                            <div>
+                                <p>Whether you want to develop a mobile application, get certification for programming knowledge, or learn new skills, you need to learn the right programming language.</p>
+                            </div>
+                        </div>
+                        <div class="content7__right"><img src="../asset/images/len.png" alt=""></div>
+                    </div>
+                </div>
+                
+            </div> 
+        </div>
+
+        <!--content8-->
+        <div class="content8" style="background: url(../asset/images/bgrskill.jpeg) center center / cover no-repeat fixed;">
+            <div class="container">
+                <div>
+                    <h3>Our Services</h3>
+                </div>
+                <div>
+                    <div class="line1">
+                        <div class="line1__item1">
+                            <div><img src="../asset/images/sv1-min.png" alt=""></div>
+                            <div><h4>Mobile App Development</h4></div>
+                            <div><p>Space Fintech builds powerful</p></div>
+                        </div>
+
+                        <div class="line1__item2">
+                            <div><img src="../asset/images/sv2-min.png" alt=""></div>
+                            <div><h4>Custom Product</h4></div>
+                            <div><p>Software is ingrained in our existence.</p></div>
+                        </div>
+                    </div>
+                    
+                    <div class="line2">
+                        <div class="line2__item1">
+                            <div><img src="../asset/images/sv3-min.png" alt=""></div>
+                            <div><h4>Blockchain Development</h4></div>
+                            <div><p>If you’re looking for enterprise blockchain</p></div>
+                        </div>
+
+                        <div class="line2__item2">
+                            <div><img src="../asset/images/sv4-min.png" alt=""></div>
+                            <div><h4>Security Compliance</h4></div>
+                            <div><p>Did you know that over 60% of companies</p></div>
+                        </div>
+
+                        <div class="line2__item3">
+                            <div><img src="../asset/images/sv5-min.png" alt=""></div>
+                            <div><h4>Search Engine Optimization</h4></div>
+                            <div><p>Too many businesses overlook the value</p></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!--content9-->
+        <div class="container content9">
+            <h3>Our Skills And Qualities</h3>
+            <div class="row">
+                <div class="col-md-12 col-lg-5">
+                    <div>
+                        <img src="../asset/images/skill1-min.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-7">
+                    <div class="content9__skill">
+                        <div class="formatSkill">
+                            <div class="caption__skill">Design</div>
+                            <div class="progress"><span class="activeProgress wow animate__animated animate__fadeInLeft" style="background-color: rgb(102, 201, 4);width: 60%;"></span></div>
+                        </div>
+                        <div class="formatSkill">
+                            <div class="caption__skill">Marketing</div>
+                            <div class="progress"><span class="activeProgress wow animate__animated animate__fadeInLeft" style="background-color: rgb(36, 193, 221);width: 70%;"></span></div>
+                        </div>
+                        <div class="formatSkill">
+                            <div class="caption__skill">Developer</div>
+                            <div class="progress"><span class="activeProgress wow animate__animated animate__fadeInLeft" style="background-color: rgb(102, 201, 4);width: 80%;"></span></div>
+                        </div>
+                        <div class="formatSkill">
+                            <div class="caption__skill">Blockchain</div>
+                            <div class="progress"><span class="activeProgress wow animate__animated animate__fadeInLeft" style="background-color: rgb(36, 193, 221);width: 90%;"></span></div>
+                        </div>
+                        <div class="formatSkill">
+                            <div class="caption__skill">SEO</div>
+                            <div class="progress"><span class="activeProgress wow animate__animated animate__fadeInLeft" style="background-color: rgb(102, 201, 4);width: 100%;"></span></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+        <!--content10-->
+        <div class="content10" >
+            <div  class="parallax-window" data-parallax="scroll" data-image-src="../asset/images/parallax-bg-min.jpg">   
+                <div class="parallax__content">
+                    <div>
+                        <p>SpaceFinTech Technology Solutions 4.0</p>
+                    </div>
+                    <div>
+                        <h3>Grow Your Business With Us</h3>
+                    </div>
+                    <div>
+                        <a class="btn-learnMore" href="">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--content11-->
+        <div class="content11">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <div class="half" >
+                            <div class="half__wrapper-text">
+                                <div>
+                                    <h2>A Creative Design Agency.</h2>
+                                </div>
+                                <div>
+                                    <p>Building a brand doesn’t happen overnight. It takes a lot of work to forge strong relationships with people—and much of that work is done through marketing. Unless you have a powerhouse internal team to help you tell your story, it’s likely you’ll need a little support in crafting and executing your marketing strategy. But searching for the right partner to help you do that can be confusing. There are all sorts of agencies out there, so how do you know whether you should hire a creative agency, a digital agency, or an ad agency? Here, we’ll break down everything you need to know about creative agencies, helping you understand what they are, why they’re different, and how to find one. </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <div class="half">
+                            <div class="half__video-image">
+                                <img src="../asset/images/techvideo-min.jpg" alt="">
+                            </div>
+                        </div>  
+                        
+                    </div>
+                </div>
+            </div>
+            <a type="button" class="half__video-play-btn" data-toggle="modal" data-target="#HalfModal">
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"></path></svg>
+            </a>
+        </div>
+        <!--content12-->
+        <div class="container content12">
+            <div class="row">
+                <div class="col-12 col-md-12">
+                    <h2>Recent Projects</h2>
+                    <p>Project overview, technology products.</p>
+                </div>
+            </div>
+            <div class="nextRow">
+                <div class="react-tabs">
+                    <ul class="react-tabs__tab-list">
+                        <li class="list active" data-filter="All">All</li>
+                        <span>/</span>
+                        <li class="list" data-filter="Graphic-Design">Graphic Design</li>
+                        <span>/</span>
+                        <li class="list" data-filter="Web-design">Web design</li>
+                        <span>/</span>
+                        <li class="list" data-filter="SEO">SEO</li>
+                        <span>/</span>
+                        <li class="list" data-filter="Marketing">Marketing</li>
+                    </ul>
+                </div>
+                <div class="react-tabs__tab-panel ">
+                    <div class="container">
+                        <div class="row" style="display:flex;">
+                            <div class="col-6 col-md-3">
+                                <div class="effect-react All Graphic-Design Web-design SEO ">
+                                    <a href="">
+                                        <img src="../asset/images/work-1-min.jpg" alt="">
+                                    </a>
+                                    <div class="activeWrap" >
+                                        <div class="projectTitle" >
+                                            Project1
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="row" style="display:flex;">
+                                    <div class="col-12 col-md-12">
+                                        <div class="effect-react All">  
+                                            <a href="">
+                                                <img src="../asset/images/work-8-min.jpg" alt="">
+                                            </a>
+                                            <div class="activeWrap" style="background: #82CF19;">
+                                                <div class="projectTitle" >
+                                                    Project2
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-12">
+                                        <div class="effect-react All Graphic-Design SEO">
+                                            <a href="">
+                                                <img src="../asset/images/work-3-min.jpg" alt="">
+                                            </a>
+                                            <div class="activeWrap" style="background: #82CF19;">
+                                                <div class="projectTitle" >
+                                                    Project4
+                                                </div>
+                                            </div>
+                                        </div>   
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="effect-react All">
+                                    <a href="">
+                                        <img src="../asset/images/work-4-min.jpg" alt="">
+                                    </a>
+                                    <div class="activeWrap" >
+                                        <div class="projectTitle">
+                                            Project3
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="row" style="display:flex;">
+                            <div class="col-6 col-md-6">
+                                <div class="effect-react All Graphic-Design Web-design SEO Marketing">
+                                    <a href="">
+                                        <img src="../asset/images/work-5-min.jpg" alt="">
+                                    </a>
+                                    <div class="activeWrap" style="background: #82CF19;">
+                                        <div class="projectTitle" >
+                                            Project5
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="col-6 col-md-6">
+                                <div class="row" style="display:flex;width: 100%;margin: 0;">
+                                    <div class="col-12 col-md-12">
+                                        <div class="effect-react All Graphic-Design SEO Marketing">
+                                            <a href="">
+                                                <img src="../asset/images/work-12-min.jpg" alt="">
+                                            </a>
+                                            <div class="activeWrap" >
+                                                <div class="projectTitle" >
+                                                    Project6
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                    <div class="col-12 col-md-12">
+                                        <div class="row" style="display:flex;width: 100%;margin: 0;">
+                                            <div class="col-6 col-lg-6">
+                                                <div class="effect-react All Web-design Marketing">
+                                                    <a href="">
+                                                        <img src="../asset/images/work-7-min.jpg" alt="">
+                                                    </a>
+                                                    <div class="activeWrap" >
+                                                        <div class="projectTitle" >
+                                                            Project7
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-lg-6">
+                                                <div class="effect-react All Graphic-Design Web-design SEO Marketing">
+                                                    <a href="">
+                                                        <img src="../asset/images/work-11-min.jpg" alt="">
+                                                    </a>
+                                                    <div class="activeWrap" >
+                                                        <div class="projectTitle" >
+                                                            Project8
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--content13-->
+        <div class="content13 parallax-window" data-parallax="scroll" data-image-src="../asset/images/type.jpeg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="textContent">
+                            <div >Maecenas nec odio et ante tincidunt tempus Donecbero vitae sapien ut libero nenatis.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--content14-->
+        <div class="content14">
+            <div class="container">
+                <div class="contentTop">
+                    <div>
+                        <h2>Product</h2>
+                    </div>
+                    <div>
+                        <p>We offer a wide range of solutions from native iOS and Android applications based on Swift, Objective-C, Kotlin and Java, to web apps based on Node.js, React and Ruby on Rails along with cross-platform solutions based on Flutter and ReactNative. For all these solutions we create beautiful designs, all thanks to our quality assurance team. A large part of our work involves IoT, including wearables.</p>
+                    </div>
+                </div>
+                <div class="contentBottom">
+                    <div>
+                        <img src="../asset/images/Mobile app -01.png" alt="">
+                    </div>
+                    <div>
+                        <img src="../asset/images/Mobile app -02.png" alt="">
+                    </div>
+                    <div>
+                        <img src="../asset/images/Mobile app -03.png" alt="">
+                    </div>
+                    <div>
+                        <img src="../asset/images/Mobile app -04.png" alt="">
+                    </div>
+                    <div>
+                        <img src="../asset/images/Mobile app -05.png" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!--content15-->
+        <section class="contact">
+            <div class="content15">
+                <div class="container">
+                    <row style="display:flex">
+                        <div class="col-md-6">
+                            <div style="text-align: left;padding: 70px 0px;">
+                                <div>
+                                    <h2>Website Design</h2>
+                                    <p>Design agencies create innovative methods of communication for clients and their brands that create value for their businesses. The objectives include creating a competitive advantage for the client in today's hyper-competitive business environment that sets them apart. Designers plan and implement value-creating strategies with their clients.</p>
+                                </div>
+                                <div>
+                                    <a class="btn-contract" href="">Read Full Story</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="../asset/images/blog1-min.jpg" alt="">
+                        </div>
+                    </row>
+                    <row style="display:flex">
+                        <div class="col-md-6">
+                            <img src="../asset/images/blog2-min.jpg" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <div style="text-align: right;padding: 70px 0px;">
+                                <div>
+                                    <h2>Development Blog</h2>
+                                    <p>As you learn the fundamentals of web development and look to enhance your knowledge, it’s important to scour the internet to see what other people are doing and saying. While it’s great to stay up-to-date on trends through magazines and books, web development blogs provide you with an abundance of fresh, free content. Blogs have become increasingly more popular over the years and even though sports and fashion blogs led the charge at first, it’s now very likely that every topic out there has at least one blog dedicated to it.</p>
+                                </div>
+                                <div>
+                                    <a class="btn-contract" href="">Read Full Story</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </row>
+                </div>
+            </div>
+        </section>
+        <div class="content16">
+            <div class="container" fluid="md">
+                <div class="row" style="display:flex">
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <img class="logo" src="../asset/images/logofintech.png"  alt="">
+                        <p>
+                            <strong>Office - Singapore:</strong> <br>
+                            Address: Centennial Tower, Levels 21 and 34, 3 Temasek Avenue, Singapore, 39190
+                        </p>
+                        <p>
+                            <strong>Office - Vietnam:</strong> <br>
+                             Address: 89 Street 01,City Center Hill,Ward 7, District Go Vap, Ho Chi Minh, Viet Nam
+                        </p>
+                        <a href="mailto:contact@spacefintech.com">
+                            <strong>Mail:</strong>
+                            <img id="iconMail"src="../asset/images/gmail-03.png" alt="">
+                            contact@spacefintech.com
+                        </a>
+                        <p>Mon-Sat: 8am30 to 6pm</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.801856981268!2d103.85811161512174!3d1.293350262113746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da19a93137e8e5%3A0xb7cf6c1c3b42618!2sCentennial%20Tower!5e0!3m2!1svi!2ssg!4v1620026902276!5m2!1svi!2ssg" width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="goToTop" id="goToTop" onclick="topFunction()">
+            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" color="#ffffff" height="3rem" width="3rem" xmlns="http://www.w3.org/2000/svg" style="color: rgb(255, 255, 255);"><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path></svg>
+        </div>
+        </main>
+        
+        <footer>
+            <section class="footer-menu">
+                <div class="container">
+                    <ul>
+                        <li class="wow animate__animated animate__fadeInDown">
+                            <a href="">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="wow animate__animated animate__fadeInUp">
+                            <a href="">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="wow animate__animated animate__fadeInDown">
+                            <a href="">
+                                <i class="fa fa-google-plus" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="wow animate__animated animate__fadeInUp">
+                            <a href="">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="wow animate__animated animate__fadeInDown">
+                            <a href="">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="wow animate__animated animate__fadeInUp">
+                            <a href="">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <p>© 2020 By SpaceFinanceTech</p>
+                </div>
+                
+            </section>
+        </footer>
+
+        
+        <script src="../asset/js/main.js" ></script>
+        <script src="../asset/js/parallax.min.js"></script>
+        <script src="../asset/js/parallax.js"></script> 
+
+                
+    </body>
+</html>
